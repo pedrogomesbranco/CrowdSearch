@@ -174,7 +174,7 @@ class ColaborationViewController: UIViewController, UITableViewDataSource, UITab
     
     func performSearch (query: String){
         
-        let accessKey = "5efe93bebc2a4885b321d521e65a28ea"
+        let accessKey = "f8b2adac350a4e6f91516e139f1a1290"
         let search_url = "https://api.cognitive.microsoft.com/bing/v7.0/search"
         let headers = ["Ocp-Apim-Subscription-Key" : accessKey]
         let params :[String : Any] = ["q":query, "mkt":"pt-BR", "filterReuslts": "webpages", "count": 10]
